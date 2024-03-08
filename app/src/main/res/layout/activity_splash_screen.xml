@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen_Activity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/lottie"
+        app:lottie_speed="1.0"
+        app:lottie_progress="0.5"
+        app:lottie_renderMode="automatic"
+        app:lottie_repeatCount="3"
+        app:lottie_repeatMode="restart"
+        app:lottie_loop="true"
+        tools:ignore="MissingClass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
