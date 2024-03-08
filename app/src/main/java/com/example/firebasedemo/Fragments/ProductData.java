@@ -2,21 +2,21 @@ package com.example.firebasedemo.Fragments;
 
 public class ProductData
 {
-    String id;
-    String pName;
-    String pDes;
-    String pPrice;
-    String pImg;
+   private String id;
+    private String pName;
+    private String pDes;
+    private String pPrice;
+    private String pImg;
 
     public ProductData() {
     }
 
-    public ProductData(String id, String pName, String pDes, String pPrice,String bitmap) {
+    public ProductData(String id, String pName, String pDes, String pPrice,String pImg) {
         this.id = id;
         this.pName = pName;
         this.pDes = pDes;
         this.pPrice = pPrice;
-        this.pImg=bitmap;
+        this.pImg=pImg;
 
     }
 

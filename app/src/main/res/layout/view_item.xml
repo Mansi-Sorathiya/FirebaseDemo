@@ -28,7 +28,7 @@
                        app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/imgView"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
@@ -53,14 +53,14 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/pname"
+                        android:id="@+id/pName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Name"
                         android:textSize="20dp" />
 
                     <TextView
-                        android:id="@+id/pdes"
+                        android:id="@+id/pDes"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Des"
