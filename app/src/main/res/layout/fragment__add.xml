@@ -22,7 +22,8 @@
             android:gravity="center"
             android:text="Add Product"
             android:textColor="@color/black"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/fragTitle"/>
 
         <LinearLayout
             android:layout_width="match_parent"
